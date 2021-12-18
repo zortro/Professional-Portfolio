@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    width: 50vw;
+    background-color: lightblue;
+}
+
+nav {
+    display: block;
+    float: right;
+    font-weight: bold;
+    display: flex;
+}
+
+nav :hover {
+    color: darkblue;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
