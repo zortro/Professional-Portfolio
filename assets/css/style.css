@@ -1,32 +1,99 @@
 body {
-    background-color: white;
+    background-color: fuchsia;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    font-family: 'Quicksand', sans-serif;
+    height: 125px;
+    background-color: lime;
+    margin: -8px;
 }
 
-h1 {
-    width: 50vw;
-    background-color: lightblue;
-}
-
-nav {
-    display: block;
-    float: right;
+.main-nav {
+    font-size: 25px;
+    display: inline;
+    margin-right: 100px;
     font-weight: bold;
-    display: flex;
 }
 
-nav :hover {
-    color: darkblue;
+.main-nav :hover {
+    color: fuchsia;
 }
 
 a {
-    color: black;
+    border-bottom: 3px solid red;
+    margin: 10px;
     text-decoration: none;
+    color: red;
+}
+
+h1 {
+    color: red;
+    border-left: 100px solid cyan;
+    border-top: 5px solid cyan;
+    border-bottom: 5px solid cyan;
+    font-size: 60px;
+    width: 300px;
+    background-color: cyan;
+    display: flex;
+    align-items: flex-start;
+}
+
+.banner {
+    margin-left: -15px;
+    margin-top: 4px;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+.BannerText {
+    padding: 5px;
+    background-color: cyan;
+    z-index: 100;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 15px;
+}
+
+h2 {
+    text-align: right;
+    border-right: 3px solid red;
+    font-size: 65px;
+    padding-right: 10px;
+}
+
+.aboutme-grid{
+    display: flex;
+    text-align: center;
+    height: 100px
+}
+
+aside {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 800px;
+    float: right;
+}
+
+.images {
+    grid
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
 }
