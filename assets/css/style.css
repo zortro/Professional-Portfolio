@@ -179,13 +179,13 @@ main {
     left: 0px;
     top: 1460px;
     height: 120px;
-    width: 1330px;
+    width: 69vw;
     background-color: olive;
     display: flex;
     justify-content: center;
     align-items: center;
     border-left: 3px solid red;
-    margin: auto 180px auto 380px;
+    margin: auto auto auto 380px;
 }
 
 .contactme :hover{
@@ -202,19 +202,198 @@ main {
     top: 390px;
     left: 300px;
     right: 100px;
-    margin: auto 90px auto 80px;
+    margin: auto auto auto 80px;
 }
 
-@media screen and (max-width: 1100px) {
-    .aboutme {
-        font-size: 15px;
-        line-height: 1;
+/* banner positioning */
+
+@media screen and (max-width: 1200px) {
+    .banner {
+        max-height: 50%;
     }
 }
 
-@media screen and (max-width: 768px) {
+/* bannertext positioning */
+
+@media screen and (max-width: 1200px) {
+    .BannerText {
+        top: 30px;
+        bottom: 110px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .BannerText {
+        top: 30px;
+        bottom: 130px;
+        font-size: 10px;
+    }
+}
+
+/* header positioning */
+
+@media screen and (max-width: 1200px) {
+    header {
+        left: 0;
+        right: 0;
+        margin: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        max-height: 50px;
+    }
+}
+
+/* h1 positioning */
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 50px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 25px;
+        width: 125px;
+    }
+}
+
+/* main positioning*/
+
+@media screen and (max-width: 1000px) {
+    main {
+        margin-left: 0;
+    }
+}
+
+/* h2 positioning */
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 40px;
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 20px;
+        margin-left: -140px;
+    }
+}
+
+/* main-nav positioning */
+
+@media screen and (max-width: 1200px) {
+    .main-nav {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-nav {
+        font-size: 10px;
+        margin-right: 25px;
+    }
+}
+
+/* aboutme positioning*/
+
+@media screen and (max-width: 1200px) {
     .aboutme {
         font-size: 10px;
         line-height: 1;
+        min-width: 10vw;
+        min-height: 50px;
     }
 }
+
+@media screen and (max-width:1200px) {
+    .aboutme {
+        top: 350px;
+        margin-left: 15px;
+        margin-right: 1vw;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .aboutme {
+        font-size: 10px;
+        top: 180px;
+        margin-left: -150px;
+        margin-right: 1vw;
+    }
+}
+
+/* flex-container positioning */
+
+@media screen and (max-width: 1650px) {
+    .flex-container {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .flex-container {
+        top: 500px;
+        margin-left: 310px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-container {
+        left: 150px;
+        top: 320px;
+        margin-left: 0px;
+    }
+}
+
+/* Image sizing */
+
+@media screen and (max-width:1200px) {
+    .images {
+        min-width: 10vw;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .image-1 {
+        min-width: 10vw;
+    }
+}
+
+/* contactme positioning*/
+
+@media screen and (max-width: 1650px) {
+    .contactme{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contactme {
+        bottom: -600px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contactme{
+        font-size: 10px;
+        margin-left: 320px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contactme{
+        bottom: -550px;
+        left: 50px;
+        font-size: 10px;
+        margin-left: 100px;
+    }
+}
+
