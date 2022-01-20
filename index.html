@@ -5,73 +5,116 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style2.css">
 </head>
 <body>
-
+    <!-- nav -->
     <header>
-        <h1>LudaCrisp</h1>
-        <nav class="main-nav">
+        <nav class="main-nav">        
+            <h1 class="page-title">Benjamin Dominguez</h1>
             <ul>
-                <a href="#">About Me</a>
-                <a href="#">Work</a>
-                <a href="mailto:ben.r.dominguez@gmail.com">Contact Me</a>
-                <a href="#">Resume</a>
+                <a class="nav-btn btn" href="#">About Me</a>
+                <a class="nav-btn btn" href="#">Work</a>
+                <a class="nav-btn btn" href="mailto:ben.r.dominguez@gmail.com">Contact Me</a>
+                <a class="nav-btn btn" href="#">Resume</a>
             </ul>
         </nav>
     </header>
+    
+    <!-- banner -->
     <section class="banner">
-        <img class="banner" src="https://cdn.discordapp.com/attachments/416444269650247682/922327186294329344/p-pb-01_Custom_1.jpg" alt="Luda Crisp">
-        <div class="BannerText">
+        <img class="banner-img" src="https://cdn.discordapp.com/attachments/416444269650247682/922327186294329344/p-pb-01_Custom_1.jpg" alt="banner-img">
+        <div class="banner-text">
             <h3>Cool Text!</h3>
         </div>
     </section>
-    <main>
-        <h2>About Me</h2>
-    </main>
-    <aside class="aboutme">
-        <h3>Santa Is an Authoritarian</h3>
-        <p>First of all, sorry to shatter your beliefs, but Santa is not benevolent. He is an authoritarian who without any rule of law arbitrarily decides who is naughty or nice. If he deems you nice, he will reward you. But if he deems you naughty, well, who knows what a powerful communist like him would do to you.</p>
-        <p> Sure, you could argue that the nicer you are, the bigger the reward, but that’s also true for a communist dictator. The closer you are to his own subjective ideal, the better you serve his own interests, the more you will get. There is no telling, however, when his fancy changes.</p>
-    </aside>
-    <main>
-        <h2>Work</h2>
-    </main>
-        <aside class="flex-container">
-            <img class="image-1" src="https://cdn.discordapp.com/attachments/416444269650247682/920824758768140329/christmas-tree-gettyimages-1072744106.png" alt="coolsanta">
-            <div class="coolsanta">
-                <h4>Img Title</h4>
-                <p>Img Desc</p>
-            </div>
-            <img class="images" src="https://cdn.discordapp.com/attachments/416444269650247682/920848639570632755/20211213_115650.jpeg" alt="nft">
-            <div class="nft">
-                <h4>nft</h4>
-                <p>Img Desc</p>
-            </div>
-            <img class="images" src="https://cdn.discordapp.com/attachments/416444269650247682/922309485119291392/20211219_180826.jpg" alt="cgometrydash">
-            <div class="gometrydash">
-                <h4>Img Title</h4>
-                <p>Img Desc</p>
-            </div>
-            <img class="images" src="https://cdn.discordapp.com/attachments/538238080193265694/922033063473578004/IMG_20211216_135627.jpg" alt="coolguydaniel">
-            <div class="coolguydaniel">
-                <h4>coolguydaniel</h4>
-                <p>Img Desc</p>
-            </div>
-            <img class="images" src="https://cdn.discordapp.com/attachments/538238080193265694/922033063129669682/IMG_20211203_123645.jpg" alt="efan">
-            <div class="efan">
-                <h4>e-fan</h4>
-                <p>Img Desc</p>
-            </div>
+
+    <!-- main body -->
+    <section class="main-body">
+
+        <!-- titles -->
+        <aside class="title-cont">
+            <h2 class="title title-about">About Me</h2>
+            <h2 class="title title-work">Work</h2>
+            <h2 class="title title-contact">Contact Me</h2>
         </aside>
-    <main class="contact-header">
-        <h2>Contact Me</h2>
-    </main>
-    <aside class="contactme">
-            <a href="tel:360.339.3196">360.339.3196</a>
-            <a hrwwef="mailto:ben.r.dominguez@gmail.com">Email</a>
-            <a href="https://github.com/zortro" target="_blank">Github</a>
-            <a href="https://twitter.com/BenDomi03406118" target="_blank">Twitter</a>
-            <a href="https://open.spotify.com/user/piebros.82?si=d7dbcd36ef344a84" target="_blank">Spotify</a>
-    </aside>
+
+        <!-- about me -->
+        <section class="main-cont">
+        <aside class="about-me section">
+            <h3>Benjamin Dominguez</h3>
+            <p>Is an aspiring Junior Full-Stack Developer.</p>
+            <p>Benjamin can write in HTML, CSS, JavaScript, and JQuery. Using these languages Benjamin can fit all of your needs from front end to back end development.</p>
+        </aside>
+
+        <!-- image container -->
+        <aside class="img-body section">
+            <!-- site 1 -->
+            <div class="img-container">
+                <a href="https://zortro.github.io/Project1/">
+                    <img id="OoK" class="img" src="assets/img/Oceans of Knowledge - Google Chrome 1_19_22 23_28_29.png" alt="Oceans-of-Knowledge">
+                </a>
+            <!-- site 2 -->
+                <a href="#">
+                    <img id="img2" class="img" src="assets/img/Page not found · GitHub - Google Chrome 1_19_22 23_42_28.png" alt="img-1">
+                </a>
+            <!-- site 3 -->
+                <a href="#">
+                    <img id="img3" class="img" src="assets/img/Page not found · GitHub - Google Chrome 1_19_22 23_42_28.png" alt="Img2">
+                </a>
+            <!-- site 4 -->
+                <a href="#">
+                    <img id="img4" class="img" src="assets/img/Page not found · GitHub - Google Chrome 1_19_22 23_42_28.png" alt="Img4">
+                </a>
+            <!-- site 5 -->
+                <a href="#">
+                    <img id="img4" class="img" src="assets/img/Page not found · GitHub - Google Chrome 1_19_22 23_42_28.png" alt="Img5">
+                </a>
+            </div>
+            <!-- descriptions -->
+                <!-- site 1 -->
+                <div class="img-1 desc">
+                    <h4>Oceans of Knowledge</h4>
+                    <p>Try your hand at Oceans of Knowledge! Using multiple APIs to create a fun and questionably educational trivia game!</p>
+                </div>
+                <!-- site 2 -->
+                <div class="img-2 desc">
+                    <h4>Img Title</h4>
+                    <p>Img Desc</p>
+                </div>
+                <!-- site 3 -->
+                <div class="img-3 desc">
+                    <h4>Img Title</h4>
+                    <p>Img Desc</p>
+                </div>
+                <!-- site 4 -->
+                <div class="img-3 desc">
+                    <h4>Img Title</h4>
+                    <p>Img Desc</p>
+                </div>
+                <!-- site 5 -->
+                <div class="img-5 desc">
+                    <h4>Img Title</h4>
+                    <p>Img Desc</p>
+                </div>
+        </aside>
+
+        <!-- contact -->
+        <footer class="contact-me section">
+            <a class="btn" href="tel:360.339.3196">360.339.3196</a>
+            <a class="btn" href="mailto:ben.r.dominguez@gmail.com">Email</a>
+            <a class="btn" href="https://github.com/zortro" target="_blank">Github</a>
+            <a class="btn" href="https://twitter.com/BenDomi03406118" target="_blank">Twitter</a>
+            <a class="btn" href="https://open.spotify.com/user/piebros.82?si=d7dbcd36ef344a84" target="_blank">Spotify</a>
+        </footer>
+    </section>
+    </section>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>

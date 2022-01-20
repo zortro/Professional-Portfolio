@@ -1,0 +1,175 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: rgb(2,2,2);
+    font-family: 'Tajawal', sans-serif;
+}
+
+.main-body {
+    display: flex;
+    flex-flow: column;
+}
+
+/* nav bar */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27,27,27);
+}
+
+.page-title {
+    margin-top: 0;
+    height: 55px;
+    padding-left: 20px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+    background-color: rgb(58, 58, 58);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    color: white;
+    font-size: 35px;
+}
+
+.nav-btn {
+    font-size: 25px;
+    margin: 25px;
+}
+
+/* all btn styling */
+.btn {
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: pink;
+    background-color:rgb(58, 58, 58);
+    border-radius: 15px;
+}
+
+/* banner img */
+.banner-img {
+    width: 100%;
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    bottom: 73vh;
+    right: 20px;
+    width: 20%;
+    background-color: tan;
+    border-radius: 15px;
+}
+
+/* all card items */
+.section {
+    margin-top: 10px;
+    margin-left: 25vw;
+    width: 50vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27,27,27);
+    border-radius: 15px;
+    color: white;
+}
+
+/* title container */
+.title-cont {
+    margin-left: 10vw;
+    width: 10%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    font-size: 35px;
+}
+
+.title {
+    border-right: 3px solid white;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.title-work {
+    padding-bottom: 470px;
+}
+
+.title-contact {
+    margin-top: 140px;
+}
+
+/* about me card */
+.about-me {
+    margin-top: -1155px;
+}
+
+/* work card */
+.img-body {
+    height: 520px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row wrap;
+    padding: 10px;
+}
+
+.img {
+    border: 2px solid transparent;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img:hover {
+    border: 2px solid white;
+}
+
+/* description box */
+.desc {
+    background-color: pink;
+    opacity: 0.5;
+    width: 50%;    
+}
+
+.contact-me {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 172px;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 540px) {
+    .page-title {
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    .nav-btn {
+        font-size: 10px;
+        margin: 0;
+    }
+    .banner-text {
+        font-size: 10px
+    }
+    .title-cont {
+        margin: 25px;
+    }
+    .title {
+        font-size: 20px;
+        padding-right: 80px;
+    }
+    .about-me {
+        margin-top: -850px;
+    }
+}
