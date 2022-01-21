@@ -19,14 +19,11 @@ body {
 }
 
 .page-title {
-    margin-top: 0;
-    height: 55px;
     padding-left: 20px;
     padding-right: 25px;
-    margin-bottom: 10px;
     background-color: rgb(58, 58, 58);
     border-bottom-right-radius: 15px;
-    border-top-right-radius: 0px;
+    border-top-right-radius: 15px;
     color: white;
     font-size: 35px;
 }
@@ -118,13 +115,13 @@ body {
 
 .img-container {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: column;
     padding: 10px;
 }
 
 .img {
     border: 2px solid transparent;
-    width: 100%;
+    width: 20%;
     border-radius: 15px;
 }
 
@@ -136,7 +133,7 @@ body {
 .desc {
     background-color: pink;
     opacity: 0.5;
-    width: 50%;    
+    width: 50%;
 }
 
 .contact-me {
@@ -150,9 +147,8 @@ body {
     display: none;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 1000px) {
     .page-title {
-        padding-top: 5px;
         font-size: 20px;
     }
     .nav-btn {
@@ -171,5 +167,45 @@ body {
     }
     .about-me {
         margin-top: -850px;
+    }
+}
+
+@media (max-width:500px) {
+    .page-title {
+        font-size: 15px;
+        width: 25%;
+    }
+    .btn {
+        font-size: 5px;
+    }
+    .nav-btn {
+        font-size: 10px;
+        justify-content: flex-end;
+    }
+    .about-me {
+        font-size: 10px;
+    }
+    .title {
+        padding-right: 70px;
+    }
+    .title-about {
+        padding-bottom: 100px;
+    }
+    .main-body {
+        margin-top: -85px;
+    }
+    .banner-text {
+        font-size: 8px;
+        bottom: 88vh;
+        height: 30px;
+    }
+    .img-body {
+        height: 450px;
+    }
+    .img {
+        width: 85%;
+    }
+    .contact-me {
+        height: 30px;
     }
 }
